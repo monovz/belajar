@@ -1,0 +1,14 @@
+body{background: #f9f9f9; font-family: 'Roboto',sans-serif;}
+.container{width: 600px; text-align: center; margin: 40px auto;}
+h3{color: #1cb7b0; font-size: 2.5em; letter-spacing: 0.1em; 
+margin-top: 0px; margin-bottom: 10px;}
+h1{font-size: 1em; margin-top: 0px;
+margin-bottom: 40px; text-transform: uppercase;}
+
+.frame-pilihan{display: flex; flex-wrap: wrap;}
+.pertanyaan{text-align: left; margin-left: 5px; font-size: 18px; font-weight: bold; color: black; margin: 5px; padding: 10px; text-align: left;}
+.pilihan{width: 270px; font-size: 12px; background: #1cb7b0; cursor: pointer; color: white; margin: 5px; padding: 10px; text-align: left;}
+.pilihan:hover{opacity: 0.8;}
+.radio-hidden{display: none;}
+.radio-hidden[type=radio]:checked + .abcd{ background: white; color: #1cb7b0; }
+.abcd{ border: 1px solid white; border-radius: 50%; display: inline-block; font-size: 10px; padding: 2px 5px; margin: 5px; }
