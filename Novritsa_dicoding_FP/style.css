@@ -1,0 +1,157 @@
+body {
+	background: #dedede;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 1310px;
+	margin: 100px;
+	padding: 30px;
+	background-color: #2070a9;
+}
+
+.container-left {
+	width: 660px;
+	height: 1230px;
+	background-color: #2070a9;
+	position: relative;
+}
+
+.container-right{
+	top: 350px;
+	width: 650px;
+	height: 1230px;
+	background-color: #2070a9;
+	position: absolute;
+	left: 820px;
+}
+
+.foto {
+	border-radius: 50%;
+	width: 200px;
+	top: 135px;
+	position: absolute;
+	z-index: 3;
+}
+
+.frame {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 25px;
+	text-align: left;
+}
+
+.universitas {
+	width: 550px;
+	height: auto;
+}
+
+.work {
+	width: 550px;
+	height: auto;
+}
+
+.organ {
+	width: 550px;
+	height: auto;
+}
+
+.panitia{
+	width: 525px;
+	height: auto;
+}
+
+.seminar{
+	width: 525px;
+	height: auto;
+}
+
+.frame-utama {
+	left: 100px;
+	background-color: #ffffff;
+	padding: 50px 30px 30px 125px;
+	height: 130px;
+	width: 1000px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 25px;
+}
+
+.vl {
+	border-left: 6px solid white;
+	height: 1120px;
+	position: absolute;
+	left: 790px;
+	top: 400px;
+}
+
+h1{
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.nama h1 {
+	left: 300px;
+	background-color: #2070a9;
+	position: absolute;
+	z-index: 2;
+	top: 90px;
+	color: white;
+	padding: 15px 10px 10px 60px;
+	border-radius: 10px;
+}
+h2{
+	font-size: 1.2em;
+	text-align: center;
+	letter-spacing: 0.3em;
+	color: black;
+}
+
+.frame-utama h2 {
+	text-align: left;
+	font-size: 1.05em;
+	letter-spacing: 2.5px;
+}
+
+h3 {
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-weight: 200;
+}
+
+h4 {
+	font-size: 12px;
+	text-align: center;
+}
+.container-left h2 {
+    color: white;
+}
+
+.container-right h2 {
+    color: white;
+}
+
+.container-left h4 {
+	margin-top: -5px;
+}
+
+.container-right h4 {
+	margin-top: -5px;
+}
+
+#sub-judul {
+	color: white;
+}
+
+#judul {
+	color: #2070a9;
+	position: absolute;
+	top: -25px;
+	left: 550px;
+	text-align: center;
+	font-size: 5em;
+}
